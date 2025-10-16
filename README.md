@@ -1,4 +1,4 @@
-# -Dashboard-Immobilier-Paris ( Paris 20 Arrondissements ) 
+# -Dashboard-Immobilier-Paris ( Paris 20 Arrondissements ) - 2 METHODE ( HTTP - LOCAL ) ( Données 2024 )
 🏙️ Dashboard Immobilier Paris - ℹ️ Données réelles DVF 2024 pour l'arrondissement de Paris 1er Arrondissement (INSEE 75101), provenant de data.gouv.fr
 <img width="662" height="465" alt="Screenshot_2025-10-15_17-03-02" src="https://github.com/user-attachments/assets/91f77272-c666-457f-b3f8-f53cc18071da" />
 
@@ -21,7 +21,7 @@
 
     curl -L -o dvf_2024.csv.gz "https://files.data.gouv.fr/geo-dvf/latest/csv/2024/full.csv.gz"
 
-# RUN PROOGRAM ( GIRONDE - 535 communes ) METHODE LOCAL
+# RUN PROGRAM ( PARIS - 20 Arrondissements ) METHODE LOCAL
 
     streamlit run Dash.py
 
